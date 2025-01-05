@@ -1,13 +1,3 @@
-- 👋 Hi, I’m @modmaker1-7
-- 👀 I’m interested in ... in showcasing mods for btd6
-- 🌱 I’m currently learning ...on how to do it
-- 💞️ I’m looking to collaborate on ... 1330 studio
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-m
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,18 +5,32 @@ m
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melon Wiki Button</title>
     <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
         .wiki-button {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
             background-color: #4CAF50;
             color: white;
             padding: 10px 20px;
             font-size: 16px;
-            text-align: center;
             text-decoration: none;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+        }
+        .wiki-button img {
+            height: 24px;
+            width: 24px;
+            border-radius: 3px;
         }
         .wiki-button:hover {
             background-color: #45a049;
@@ -34,4 +38,7 @@ m
     </style>
 </head>
 <body>
-    <button class="wiki-button" onclick="goToWiki()">Go to Melon Wiki</butto
+    <a class="wiki-button" href="https://melonwiki.com" target="_blank">
+        <img src="logo.png" alt="Melon Wiki Logo">
+        Go to Melon W
+
