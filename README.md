@@ -34,12 +34,4 @@ m
     </style>
 </head>
 <body>
-    <button class="wiki-button" onclick="goToWiki()">Go to Melon Wiki</button>
-
-    <script>
-        function goToWiki() {
-            window.open("https://melonwiki.com", "_blank");
-        }
-    </script>
-</body>
-</html>
+    <button class="wiki-button" onclick="goToWiki()">Go to Melon Wiki</butto
